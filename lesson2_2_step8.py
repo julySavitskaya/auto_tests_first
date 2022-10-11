@@ -5,9 +5,7 @@ import os
 
 browser = webdriver.Chrome()
 
-link =  "http://suninjuly.github.io/file_input.html"
-
-browser.get(link)
+browser.get("http://suninjuly.github.io/file_input.html")
 
 input1 = browser.find_element(By.NAME, "firstname")
 input1.send_keys("Juli")
