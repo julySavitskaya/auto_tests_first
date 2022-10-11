@@ -16,7 +16,6 @@ input2.send_keys("Sav")
 input3 = browser.find_element(By.NAME, "email")
 input3.send_keys("S")
 
-
 with open("file.txt", "w") as file:
     content = file.write("automationbypython")  # create file.txt file
 
@@ -36,3 +35,5 @@ time.sleep(30)
 browser.quit()
 
 # не забываем оставить пустую строку в конце файла
+
+
