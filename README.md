@@ -1,1 +1,1 @@
-Hello# auto_tests_first
+Репозиторий по курсу автоматизации# auto_tests_first
